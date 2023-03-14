@@ -1,0 +1,109 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #528AAE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+  }
+  
+  /* Logo */
+  .logo img {
+    height: 45px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+  
+  /* Menu */
+  .menu {
+    position: relative;
+  }
+  
+  .menu span {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .menu-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .menu-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .menu:hover .menu-content {
+    display: block;
+  }
+  
+  /* Search */
+  .search {
+    position: relative;
+  }
+  
+  .search input[type="text"] {
+    padding: 12px 315px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-top: 15px;
+  }
+  
+  .search i.fa-search {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+    
+    margin-top: 15px;
+  }
+  /* Login */
+  .login a {
+    background-color: #fff;
+    color: #1E3F66;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  
+  /* Register */
+  .register a {
+    background-color: #2E5984;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  
